@@ -10,10 +10,10 @@
 4. binary will be output to ./zig-out/bin/ivy
 
 build.zig options:
-`os`: operating system (windows, macos, linux)
-`arch`: cpu architecture (x86 or arm)
-`host`: ip / fqdn for your nc listener
-`port`: port for your nc listener
+`os`: operating system (windows, macos, linux) \
+`arch`: cpu architecture (x86 or arm) \ 
+`host`: ip / fqdn for your nc listener \
+`port`: port for your nc listener \
 
 nc usage:
 *nix: `nc -lvnp 443`
