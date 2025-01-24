@@ -7,7 +7,7 @@
 1. `git clone https://github.com/ziggoon/zig-shell`
 2. `cd zig-shell`
 3. `zig build -Dos=windows -Darch=x86 -Dhost="192.168.0.1" -Dport=443`
-4. binary will be output to ./zig-out/bin/ivy
+4. binary will be output to ./zig-out/bin/
 
 build.zig options: <br/>
 `os`: operating system (windows, macos, linux) <br/>
