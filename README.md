@@ -9,11 +9,11 @@
 3. `zig build -Dos=windows -Darch=x86 -Dhost="192.168.0.1" -Dport=443`
 4. binary will be output to ./zig-out/bin/ivy
 
-build.zig options:
-`os`: operating system (windows, macos, linux) \
-`arch`: cpu architecture (x86 or arm) \ 
-`host`: ip / fqdn for your nc listener \
-`port`: port for your nc listener \
+build.zig options: <br/>
+`os`: operating system (windows, macos, linux) <br/>
+`arch`: cpu architecture (x86 or arm) <br/>
+`host`: ip / fqdn for your nc listener <br/>
+`port`: port for your nc listener 
 
 nc usage:
 *nix: `nc -lvnp 443`
